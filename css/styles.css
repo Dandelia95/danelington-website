@@ -1,0 +1,38 @@
+/* 
+   This is your custom stylesheet.
+   You can add your own CSS rules here to override Bootstrap defaults or add new styles. 
+   Learn more about CSS at: https://www.w3schools.com/css/
+*/
+
+/* Smooth scrolling when clicking on navbar links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add some padding to the body so the navbar doesn't cover content when scrolling to top (optional) */
+body {
+  /* padding-top: 56px; */ /* Uncomment if using fixed-top navbar and it covers content */
+}
+
+/* Custom styling for the Hero/About section */
+#about {
+  background-color: #f8f9fa; /* Light gray background */
+  /* You can change this to a background image like this: */
+  /* background-image: url('../images/your-background.jpg'); */
+  /* background-size: cover; */
+}
+
+/* Example: Change the color of the project card titles */
+.card-title {
+  color: #333;
+  font-weight: bold;
+}
+
+/* Example: Hover effect on project cards */
+.card {
+  transition: transform 0.2s; /* Animation speed */
+}
+
+.card:hover {
+  transform: scale(1.02); /* Slightly enlarge the card on mouse hover */
+}

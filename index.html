@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <!-- LINK TO BOOTSTRAP CSS (Do not remove) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- LINK TO FONT AWESOME ICONS (Do not remove) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <!-- YOUR CUSTOM STYLES -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <!-- Edit the text inside the tags to change menu items -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <!-- EDIT YOUR NAME HERE -->
+        <a class="navbar-brand" href="#">My Name</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO / ABOUT SECTION -->
+    <section id="about" class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <!-- EDIT TITLE HERE -->
+          <h1 class="fw-light">Hi, I'm [Your Name]</h1>
+          <!-- EDIT DESCRIPTION HERE -->
+          <p class="lead text-muted">
+            I am a [Job Title/Hobbyist] based in [City]. This is a showcase of
+            my work and projects. I love creating things and solving problems.
+          </p>
+          <p>
+            <a href="#contact" class="btn btn-primary my-2">Contact Me</a>
+            <a href="#portfolio" class="btn btn-secondary my-2">View My Work</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <div class="album py-5 bg-light" id="portfolio">
+      <div class="container">
+        <h2 class="text-center mb-5">My Projects</h2>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <!-- PROJECT ITEM 1 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <!-- Replace 'https://via.placeholder.com/400x225' with your image path (e.g., 'images/project1.jpg') -->
+              <img
+                src="https://via.placeholder.com/400x225"
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                alt="Project 1"
+              />
+              <div class="card-body">
+                <!-- EDIT PROJECT TITLE -->
+                <h5 class="card-title">Project One</h5>
+                <!-- EDIT PROJECT DESCRIPTION -->
+                <p class="card-text">
+                  Short description of the project goes here. What did you make?
+                  What tools did you use?
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <!-- EDIT BUTTON LINK -->
+                    <a href="#" class="btn btn-sm btn-outline-secondary"
+                      >View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT ITEM 2 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img
+                src="https://via.placeholder.com/400x225"
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                alt="Project 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Project Two</h5>
+                <p class="card-text">
+                  Description of another cool project you worked on.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="#" class="btn btn-sm btn-outline-secondary"
+                      >View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT ITEM 3 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img
+                src="https://via.placeholder.com/400x225"
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                alt="Project 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Project Three</h5>
+                <p class="card-text">Maybe a hobby project or something fun.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="#" class="btn btn-sm btn-outline-secondary"
+                      >View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- COPY AND PASTE THE CODE ABOVE TO ADD MORE PROJECTS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER / CONTACT -->
+    <footer class="text-muted py-5" id="contact">
+      <div class="container text-center">
+        <h2 class="mb-4">Get In Touch</h2>
+        <p class="mb-4">
+          <!-- EDIT EMAIL -->
+          Have a question or want to work together? <br />
+          <a href="mailto:email@example.com" class="text-decoration-none"
+            >email@example.com</a
+          >
+        </p>
+
+        <!-- SOCIAL ICONS -->
+        <div class="fs-2 mb-4">
+          <!-- EDIT SOCIAL LINKS -->
+          <a href="#" class="text-dark mx-2"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-dark mx-2"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#" class="text-dark mx-2"><i class="fab fa-linkedin"></i></a>
+          <a href="#" class="text-dark mx-2"><i class="fab fa-github"></i></a>
+        </div>
+
+        <p class="mb-1">&copy; 2024 My Portfolio</p>
+      </div>
+    </footer>
+
+    <!-- BOOTSTRAP JAVASCRIPT (Do not remove) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
